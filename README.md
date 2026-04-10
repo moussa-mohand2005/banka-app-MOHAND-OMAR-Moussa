@@ -65,6 +65,7 @@ Assurez-vous de posséder l'environnement de développement suivant :
 - **Fiabilisation des Saisies (UX) :** Intégration du module `KeyboardAvoidingView` permettant l'ajustement dynamique de l'écran lors du déclenchement du clavier virtuel, et évitant le recouvrement incommodant des entrées (Inputs).
 - **Maintien d'un "Source Of Truth" Réunifiée :** Les données des comptes résident sur l'entité mère de navigation, évitant ainsi le risque de désynchronisation entre les vues directes et la page d'historisation. Des identifiants (IDs) sont passés dans les paramètres de la navigation native en remplacement de l'envoi "dangereux" des entités en tant qu'objets purs (*Props Drilling control*).
 - **Architecture Logique et Nommage Identifiable :** Des conventions explicites qui garantissent la solidité conceptuelle en cas d'ajout progressif de librairies à l'architecture.
+  
 **Scanner le QR Code** avec l'application Expo Go ou l'appareil photo de votre téléphone.
   
   <img width="228" height="266" alt="QR" src="https://github.com/user-attachments/assets/507a4243-9ea3-4086-a005-7b9fa0da4aca" />
